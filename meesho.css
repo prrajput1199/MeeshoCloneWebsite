@@ -441,8 +441,12 @@ main {
   margin-left: 50px;
 }
 
-.productsforyousection{
+/* .productsforyousection{
   width: 100%;
+} */
+
+.itemsdisplay{
+  width: 30%;
 }
 
 @media screen and (max-width: 768px) {
@@ -628,6 +632,7 @@ main {
   .image1 img {
     width: 12.25rem;
   }
+
 }
 
 @media screen and (max-width: 500px){
