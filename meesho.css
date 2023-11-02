@@ -1,15 +1,19 @@
+@viewport {
+  width: device-width;
+}
+
 * {
   box-sizing: border-box;
   border: none;
   outline: none;
   scroll-behavior: smooth;
-  
 }
 
 :root {
   --hoverTextcolor: rgb(244, 51, 151);
   --text-color: rgb(50, 49, 49);
 }
+
 
 body {
   font-family: "Inter", sans-serif;
@@ -18,12 +22,14 @@ body {
   color: #7d7b7b;
   padding: 0;
   margin: 0;
+  overflow: hidden;
   /* width: 100%; */
 }
 
 #menu-icon{
 display: none;
 }
+
 .header {
   border-top: 1px solid #ccc;
   height: 4.5rem;
@@ -445,9 +451,6 @@ main {
   width: 100%;
 } */
 
-.itemsdisplay{
-  width: 30%;
-}
 
 @media screen and (max-width: 768px) {
   html {
