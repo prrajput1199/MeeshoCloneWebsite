@@ -623,6 +623,10 @@ main {
 }
 
 @media screen and (max-width: 500px){
+  html{
+    width: 100%;
+  }
+  
   .images img {
     width: 100vw;
     height: 25vh;
