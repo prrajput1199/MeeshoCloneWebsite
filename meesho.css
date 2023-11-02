@@ -2,7 +2,6 @@
   box-sizing: border-box;
   border: none;
   outline: none;
-  /* scrollbar-gutter: inherit; */
   scroll-behavior: smooth;
   
 }
@@ -11,8 +10,6 @@
   --hoverTextcolor: rgb(244, 51, 151);
   --text-color: rgb(50, 49, 49);
 }
-
-
 
 body {
   font-family: "Inter", sans-serif;
@@ -35,12 +32,13 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100vw;
 }
 
 .headersection {
-  /* overflow: hidden; */
+  /* overflow: visible; */
   top: 0;
-  width: 100%;
+  width: 100vw;
   position: -webkit-sticky;
   position: fixed;
   background-color: white;
@@ -64,7 +62,7 @@ display: none;
   margin-left: 1.25rem;
   padding: 0.31rem;
   position: relative;
-  z-index: 0;
+  z-index: 3;
 }
 
 .recentSearches {
