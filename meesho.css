@@ -456,6 +456,7 @@ main {
 @media screen and (max-width: 768px) {
   html {
     overflow: hidden;
+    overflow-y: auto;
   }
 
   .headersection {
@@ -463,8 +464,8 @@ main {
     top: 0;
     width: 100vw;
     height: 100px;
-    /* position: -webkit-sticky; */
-    /* position: fixed; */
+    position: -webkit-sticky;
+    position: fixed;
     background-color: white;
     z-index: 0;
   }
