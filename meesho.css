@@ -441,6 +441,10 @@ main {
   margin-left: 50px;
 }
 
+.productsforyousection{
+  width: 100%;
+}
+
 @media screen and (max-width: 768px) {
   html {
     overflow: hidden;
