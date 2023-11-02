@@ -33,11 +33,10 @@ display: none;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  width: 100vw;
 }
 
 .headersection {
-  overflow: visible;
+  overflow: hidden;
   top: 0;
   width: 100%;
   position: -webkit-sticky;
@@ -446,7 +445,7 @@ main {
   .headersection {
     /* overflow: visible; */
     top: 0;
-    width: 100%;
+    width: 100vw;
     height: 100px;
     position: -webkit-sticky;
     position: fixed;
