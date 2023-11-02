@@ -463,8 +463,8 @@ main {
     top: 0;
     width: 100vw;
     height: 100px;
-    position: -webkit-sticky;
-    position: fixed;
+    /* position: -webkit-sticky; */
+    /* position: fixed; */
     background-color: white;
     z-index: 0;
   }
